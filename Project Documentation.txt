@@ -1,0 +1,33 @@
+Customer Segmentation and Retention Analysis (RFM + K-Means + Tableau)
+
+Objective
+
+The goal of this project is to analyze customer purchasing behavior and create actionable segments that enable targeted marketing, personalized offers, and retention strategies.
+Using RFM (Recency, Frequency, Monetary) analysis and K-Means clustering, the project identifies key customer groups such as Loyal, Regular, At Risk, and Lost customers, and visualizes insights through an interactive Tableau dashboard.
+
+| Stage                           | Description                                                                                                            |
+| :------------------------------ | :--------------------------------------------------------------------------------------------------------------------- |
+| **Data Cleaning & Preparation** | Processed 400K+ transactions, removed duplicates, handled missing IDs, and filtered invalid prices and quantities.     |
+| **Feature Engineering (RFM)**   | Computed Recency, Frequency, and Monetary values per customer using transactional data.                                |
+| **Segmentation Models**         | ① Rule-based quantile segmentation (RFM Scoring) ② Data-driven segmentation using K-Means clustering.                  |
+| **Visualization**               | Created an interactive **Tableau dashboard** with KPIs, pie charts, scatter plots, and normalized RFM comparison bars. |
+| **Business Insights**           | Highlighted customer value tiers and retention opportunities for marketing optimization.                               |
+
+Tech Stack
+Languages: Python
+Libraries: pandas, numpy, matplotlib, scikit-learn
+Visualization: Tableau Desktop / Tableau Public
+Data: Online Retail Dataset (UCI Machine Learning Repository)
+
+Key Insights
+Loyal Customers (≈20%) generate over 60% of total revenue with high repeat purchase rate.
+Regular Buyers show consistent activity — potential to be nurtured into “Loyal.”
+At-Risk Customers show reduced frequency and recency — ideal for reactivation campaigns.
+Lost Customers contribute minimally; focus marketing on retention of higher-value groups.
+
+
+Interactive Dashboard: https://public.tableau.com/views/CustomerSegmentation_17623358854740/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Conclusion
+This project demonstrates how to translate raw retail transaction data into customer intelligence using data science and visualization.
+By combining RFM analysis and K-Means clustering, the business can identify high-value segments, prioritize marketing spend, and implement data-driven retention strategies.
